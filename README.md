@@ -1,36 +1,49 @@
 # 🚀 CodeAlpha Cybersecurity Internship Tasks
 
-Welcome to my portfolio of projects completed during my Cybersecurity Internship at **CodeAlpha**. This repository serves as a comprehensive collection of tools and resources developed to address real-world security challenges.
+<p align="center">
+  <img src="https://img.shields.io/badge/Internship-CodeAlpha-blue?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/Status-In--Progress-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Security-Red%20|%20Blue%20Team-red?style=for-the-badge" />
+</p>
 
 ---
 
-## 🛠️ Projects Overview
-
-| Task | Project Name | Description | Tech Stack |
-| :--- | :--- | :--- | :--- |
-| **01** | [Basic Network Sniffer](./codealpha_Basic_network_Sniffer) | A Python tool to capture and analyze live TCP/UDP network packets. | Python, Scapy |
-| **02** | [Phishing Awareness Training](./codealpha_phishing-awareness-training) | Educational resources/tools to identify and prevent phishing attacks. | HTML/Security Research |
+## 👨‍💻 About the Portfolio
+Welcome to my cybersecurity project showcase! This repository serves as a comprehensive collection of tools, labs, and security research developed during my internship at **CodeAlpha**. My focus is on understanding network vulnerabilities, automating threat detection, and promoting security awareness.
 
 ---
 
-## 📂 Detailed Task Breakdown
-
-### 1. Basic Network Sniffer 🛡️
-A lightweight packet analyzer designed to monitor network traffic. 
-* **Key Features:** Real-time packet capture, IP/Port identification, and protocol sorting.
-* **Use Case:** Network troubleshooting and learning the OSI model.
-
-### 2. Phishing Awareness Training 🎣
-A project focused on the human element of cybersecurity.
-* **Key Features:** Identification of malicious URLs, email header analysis, and social engineering prevention tips.
-* **Use Case:** Corporate training and individual security awareness.
+## 🛠️ Tech Stack & Tools
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Kali_Linux-557C94?style=flat&logo=kali-linux&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nmap-000000?style=flat&logo=nmap&logoColor=white" />
+  <img src="https://img.shields.io/badge/Wireshark-1679A7?style=flat&logo=wireshark&logoColor=white" />
+  <img src="https://img.shields.io/badge/Snort-FF0000?style=flat&logo=target&logoColor=white" />
+</p>
 
 ---
 
-## ⚙️ Installation & Setup
+## 📂 Projects Overview
 
-To explore these projects locally, follow these steps:
+| Task | Project Name | Description | Key Features | Tech Stack |
+| :--- | :--- | :--- | :--- | :--- |
+| **01** | [**Basic Network Sniffer**](./codealpha_Basic_network_Sniffer) | Real-time packet capture and protocol analysis. | TCP/UDP/ICMP filtering, Raw data hex dump | Python, Scapy |
+| **02** | [**Intrusion Detection System**](./codealpha_Network_Intrusion_Detection_System) | Monitoring and alerting for malicious network activity. | Nmap scan detection, Snort rule integration | Kali, Snort, Bash |
+| **03** | [**Phishing Awareness**](./codealpha_phishing-awareness-training) | Educational templates and simulated attack vectors. | Social Engineering research, Defense tactics | HTML/CSS, Research |
 
-1. **Clone the Repository:**
-   ```bash
-   git clone [https://github.com/U-CYS/codealpha_tasks.git](https://github.com/U-CYS/codealpha_tasks.git)
+---
+
+## 🕵️ Feature Project: Network Intrusion Detection
+In **Task 02**, I successfully set up a NIDS environment where I:
+1.  **Established a Target:** Configured a Windows machine running an HTTP service.
+2.  **Simulated Reconnaissance:** Used Kali Linux to perform stealthy Nmap service fingerprinting.
+3.  **Engineered Defense:** Wrote custom Snort rules to flag NSE (Nmap Scripting Engine) headers in real-time.
+
+> **Challenge:** Detecting scans without blocking legitimate administrative traffic.
+> **Solution:** Implemented threshold-based alerting to reduce false positives.
+
+---
+<p align="center">
+  <i>"Securing the digital frontier, one packet at a time."</i>
+</p>
