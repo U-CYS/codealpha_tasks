@@ -17,7 +17,7 @@ A lightweight Python-based network sniffer that captures and analyzes real-time 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/your-username/network-packet-analyzer.git](https://github.com/your-username/network-packet-analyzer.git)
+   git clone [https://github.com/U-CYS/codealpha_tasks.git](https://github.com/U-CYS/codealpha_tasks.git)
    cd network-packet-analyzer
 
 ## ✅ How Run
