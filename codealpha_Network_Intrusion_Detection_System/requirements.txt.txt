@@ -1,0 +1,7 @@
+# Software and Tools Required
+OS: Windows 10/11 (Target)
+OS: Kali Linux (Attacker/Monitor)
+Hypervisor: VMware Workstation or Oracle VirtualBox
+Nmap: v7.9x (Network Discovery)
+Everything Search Engine: (Used as HTTP Server)
+Snort: v2.9 or v3.0 (Planned for IDS)
